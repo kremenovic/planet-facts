@@ -530,9 +530,37 @@ body {
   border-color: var(--activeVenus);
 }
 
+.venus.active.mobile:after {
+  content: "";
+  width: 100%;
+  height: 3px;
+  left: 0;
+  position: relative;
+  display: block;
+  top: 10px;
+  background-color: transparent;
+  background-color: var(--activeVenus);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
 .earth.active {
   background-color: var(--activeEarth);
   border-color: var(--activeEarth);
+}
+
+.earth.active.mobile:after {
+  content: "";
+  width: 100%;
+  height: 3px;
+  left: 0;
+  position: relative;
+  display: block;
+  top: 10px;
+  background-color: transparent;
+  background-color: var(--activeEarth);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .mars.active {
@@ -540,9 +568,37 @@ body {
   border-color: var(--activeMars);
 }
 
+.mars.active.mobile:after {
+  content: "";
+  width: 100%;
+  height: 3px;
+  left: 0;
+  position: relative;
+  display: block;
+  top: 10px;
+  background-color: transparent;
+  background-color: var(--activeMars);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
 .jupiter.active {
   background-color: var(--activeJupiter);
   border-color: var(--activeJupiter);
+}
+
+.jupiter.active.mobile:after {
+  content: "";
+  width: 100%;
+  height: 3px;
+  left: 0;
+  position: relative;
+  display: block;
+  top: 10px;
+  background-color: transparent;
+  background-color: var(--activeJupiter);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .saturn.active {
@@ -550,14 +606,56 @@ body {
   border-color: var(--activeSaturn);
 }
 
+.saturn.active.mobile:after {
+  content: "";
+  width: 100%;
+  height: 3px;
+  left: 0;
+  position: relative;
+  display: block;
+  top: 10px;
+  background-color: transparent;
+  background-color: var(--activeSaturn);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
 .uranus.active {
   background-color: var(--activeUranus);
   border-color: var(--activeUranus);
 }
 
+.uranus.active.mobile:after {
+  content: "";
+  width: 100%;
+  height: 3px;
+  left: 0;
+  position: relative;
+  display: block;
+  top: 10px;
+  background-color: transparent;
+  background-color: var(--activeUranus);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
 .neptune.active {
   background-color: var(--activeNeptune);
   border-color: var(--activeNeptune);
+}
+
+.neptune.active.mobile:after {
+  content: "";
+  width: 100%;
+  height: 3px;
+  left: 0;
+  position: relative;
+  display: block;
+  top: 10px;
+  background-color: transparent;
+  background-color: var(--activeNeptune);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .mobileFactsButtons {

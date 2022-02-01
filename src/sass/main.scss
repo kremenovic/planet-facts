@@ -55,31 +55,73 @@ body {
 .venus.active {
   background-color: var(--activeVenus);
   border-color: var(--activeVenus);
+
+  &.mobile:after {
+    @include mobileBorder;
+    background-color: var(--activeVenus);
+    transition: 0.5s;
+  }
 }
 
 .earth.active {
   background-color: var(--activeEarth);
   border-color: var(--activeEarth);
+
+  &.mobile:after {
+    @include mobileBorder;
+    background-color: var(--activeEarth);
+    transition: 0.5s;
+  }
 }
 .mars.active {
   background-color: var(--activeMars);
   border-color: var(--activeMars);
+
+  &.mobile:after {
+    @include mobileBorder;
+    background-color: var(--activeMars);
+    transition: 0.5s;
+  }
 }
 .jupiter.active {
   background-color: var(--activeJupiter);
   border-color: var(--activeJupiter);
+
+  &.mobile:after {
+    @include mobileBorder;
+    background-color: var(--activeJupiter);
+    transition: 0.5s;
+  }
 }
 .saturn.active {
   background-color: var(--activeSaturn);
   border-color: var(--activeSaturn);
+
+  &.mobile:after {
+    @include mobileBorder;
+    background-color: var(--activeSaturn);
+    transition: 0.5s;
+  }
 }
 .uranus.active {
   background-color: var(--activeUranus);
   border-color: var(--activeUranus);
+
+  &.mobile:after {
+    @include mobileBorder;
+    background-color: var(--activeUranus);
+    transition: 0.5s;
+  }
 }
 .neptune.active {
   background-color: var(--activeNeptune);
   border-color: var(--activeNeptune);
+
+  &.mobile:after {
+    @include mobileBorder;
+    background-color: var(--activeNeptune);
+    transition: 0.5s;
+  }
 }
 
 .mobileFactsButtons {
