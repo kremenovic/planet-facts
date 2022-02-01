@@ -1,5 +1,5 @@
 import React from "react";
-import { useState, useEffect } from "react";
+import { useEffect } from "react";
 
 import { FaExternalLinkSquareAlt } from "react-icons/fa";
 
@@ -54,7 +54,7 @@ const Header = () => {
           <p className="sectionFacts__info--content">{contentInfo}</p>
           <p className="sectionFacts__info--source">
             Source :{" "}
-            <a href={contentSource} target="_blank">
+            <a href={contentSource} target="_blank" rel="noreferrer">
               <span> Wikipedia</span>
               &nbsp;
               <FaExternalLinkSquareAlt />

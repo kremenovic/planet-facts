@@ -1,5 +1,3 @@
-import React, { useState, useEffect } from "react";
-
 import Header from "./components/Header";
 import Facts from "./components/Facts";
 import MobileNav from "./components/MobileNav";

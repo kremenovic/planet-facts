@@ -1,5 +1,5 @@
 import React from "react";
-import { useState, useEffect } from "react";
+
 import { FaBars } from "react-icons/fa";
 
 import { useGlobalContext } from "../context";

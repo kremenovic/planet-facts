@@ -1,10 +1,4 @@
-import React, {
-  useState,
-  useContext,
-  useEffect,
-  useRef,
-  useCallback,
-} from "react";
+import React, { useState, useContext } from "react";
 
 import planetsData from "./data.json";
 
